@@ -11,7 +11,7 @@ shadowsocks-client via [shadowsocks-libev[3.2.4]](https://github.com/shadowsocks
 
 ```bash
 docker pull paiyehsu/shadowsocks-client
-docker run -dt --name ss-client --restart always -p 1080:1080 -p 8118:8118 -e SERVER_ADDR=<server> -e SERVER_PORT=<port> -e METHOD=<method> -PASSWORD=<password> paiyehsu/shadowsocks-client
+docker run -dt --name ss-client --restart always -p 1080:1080 -p 8118:8118 -e SERVER_ADDR=<server> -e SERVER_PORT=<port> -e METHOD=<method> -e PASSWORD=<password> paiyehsu/shadowsocks-client
 ```
 
 ## Usage
