@@ -5,7 +5,7 @@
 shadowsocks-client via [shadowsocks-libev[3.2.4]](https://github.com/shadowsocks/shadowsocks-libev), [privoxy](https://www.privoxy.org/)
 
 - ss-local for socks5 proxy
-- provide for forwarding socks5 to http proxy
+- privoxy for forwarding socks5 to http proxy
 
 ## ss-client
 
