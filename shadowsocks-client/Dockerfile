@@ -7,7 +7,7 @@ ENV SS_DOWNLOAD_URL https://github.com/shadowsocks/shadowsocks-libev/releases/do
 
 ENV SERVER_ADDR 0.0.0.0
 ENV SERVER_PORT 8388
-ENV METHOD      chacha20
+ENV METHOD      chacha20-ietf-poly1305
 ENV PASSWORD=
 ENV LOCAL_ADDR 0.0.0.0
 ENV LOCAL_PORT 1080
