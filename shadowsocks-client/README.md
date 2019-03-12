@@ -28,7 +28,7 @@ docker run -dt --name ss-client --restart always -p 1080:1080 -p 8118:8118 -e SE
                              chacha20-ietf-poly1305,
                              xchacha20-ietf-poly1305,
                              salsa20, chacha20 and chacha20-ietf.
-                             The default cipher is chacha20.
+                             The default cipher is chacha20-ietf-poly1305.
        PASSWORD              Password of your remote server.
        LOCAL_ADDR            Port number of your local server.
        LOCAL_PORT            Password of your remote server.
